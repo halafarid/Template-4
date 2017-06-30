@@ -1,0 +1,37 @@
+/* Start Media Query */
+/* Smart Phone (xs) */
+@media (max-width: 767px)
+{
+	img
+	{
+		margin: auto;
+	}
+	.testimonial .carousel p,
+	.features .feature
+	{
+		text-align: center;
+	}
+	.navbar-header > span
+	{
+		margin-left: 82px;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a
+	{
+		color: #fff;
+		padding: 5px;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover
+	{
+		color: #980000;
+	}
+	.navbar-nav > li > .dropdown-menu
+	{
+		margin-left: 20px;
+	}
+	.priceTable 
+	{
+		margin: 0px auto 50px;
+		width: 400px;
+	}
+}
+/* End Medua Query */
